@@ -1,3 +1,12 @@
+# 1.5 One Away: There are three types of edits that can be performed on strings: insert a character,
+# remove a character, or replace a character. Given two strings, write a function to check if they are
+# one edit (or zero edits) away.
+# EXAMPLE
+# pale , pi e - > tru e
+# pales , pal e - > tru e
+# pale , bal e - > tru e
+# pale , bak e - > fals e 
+
 def OneEditReplace(s1, s2):
     found_difference = False
     for i in range(0, len(s1)):
